@@ -4,12 +4,19 @@
   "description": "Node js Redis Memcache, Pub - Sub Demo",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sudhanva Narayana",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "ioredis": "^4.16.0",
     "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
