@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-redis-pub-sub",
+  "version": "1.0.0",
+  "description": "Node js Redis Memcache, Pub - Sub Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudhanva Narayana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
